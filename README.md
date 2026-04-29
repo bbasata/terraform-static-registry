@@ -1,6 +1,6 @@
 # terraform-static-registry
 
-A GitHub Pages implementation of the Terraform provider registry protocol.
+A GitHub Pages implementation of the Terraform [provider registry protocol]([url](https://developer.hashicorp.com/terraform/internals/provider-registry-protocol)).
 
 ## Usage
 
