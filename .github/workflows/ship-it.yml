@@ -18,13 +18,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
 
-      - run: |
-          tar cvzf ${{runner.temp}}/github-pages v1 .well-known
-
       - uses: actions/upload-pages-artifact@v5.0.0
         with:
           include_hidden_files: true
-          path: "${{runner.temp}}/github-pages"
+          path: .
 
   roll-out:
     runs-on: ubuntu-latest
